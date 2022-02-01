@@ -1,0 +1,64 @@
+{
+  "uuid": "9189c672-7c65-426d-a5ab-02a3c071bcbb-tr-0-1001",
+  "historyId": "QaseProjectTest.Tests.UiTests.LoginTests.LoginTest",
+  "fullName": "QaseProjectTest.Tests.UiTests.LoginTests.LoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WSB-003-73"
+    },
+    {
+      "name": "package",
+      "value": "QaseProjectTest.Tests.UiTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginTest"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    }
+  ],
+  "links": [],
+  "name": "LoginTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LoginTest"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9d62cf028b434bd59316ca40558ac494-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1643720489088,
+      "stop": 1643720495102
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1643720489088,
+  "stop": 1643720495104
+}

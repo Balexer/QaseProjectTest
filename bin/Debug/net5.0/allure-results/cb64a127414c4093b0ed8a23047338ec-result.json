@@ -1,0 +1,68 @@
+{
+  "uuid": "91c182fb-67f6-4e3e-9e4a-30b9bfff060b-tr-0-1002",
+  "historyId": "QaseProject.Tests.UiTests.LoginTests.LoginWithWrongPasswordTest",
+  "fullName": "QaseProject.Tests.UiTests.LoginTests.LoginWithWrongPasswordTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WSB-003-73"
+    },
+    {
+      "name": "package",
+      "value": "QaseProject.Tests.UiTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginWithWrongPasswordTest"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    }
+  ],
+  "links": [],
+  "name": "LoginWithWrongPasswordTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.IO.FileNotFoundException : The configuration file 'QaseProjectTest\\src\\Resources\\appSettings.json' was not found and is not optional. The expected physical path was 'C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\bin\\Debug\\net5.0\\QaseProjectTest\\src\\Resources\\appSettings.json'.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()\r\n   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)\r\n   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()\r\n   at QaseProject.main.core.ReadProperties.BuildConfiguration() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\src\\Core\\ReadProperties.cs:line 29\r\n   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)\r\n--- End of stack trace from previous location ---\r\n   at System.Lazy`1.CreateValue()\r\n   at System.Lazy`1.get_Value()\r\n   at QaseProject.main.core.ReadProperties.get_Configuration() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\src\\Core\\ReadProperties.cs:line 13\r\n   at QaseProject.main.core.ReadProperties.get_Url() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\src\\Core\\ReadProperties.cs:line 37\r\n   at QaseProject.main.core.BrowsersService..ctor() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\src\\Core\\BrowsersService.cs:line 19\r\n   at QaseProject.main.baseEntity.BaseTest.OpenPage() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\src\\BaseEntity\\BaseTest.cs:line 16\r\n--TearDown\r\n   at QaseProject.main.baseEntity.BaseTest.ClosePage() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\src\\BaseEntity\\BaseTest.cs:line 23"
+  },
+  "stage": "finished",
+  "description": "\nOpenPage SetUp method failed\n\nClosePage TearDown method failed\n",
+  "steps": [
+    {
+      "name": "LoginWithWrongPasswordTest skipped because of OpenPage failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.IO.FileNotFoundException : The configuration file 'QaseProjectTest\\src\\Resources\\appSettings.json' was not found and is not optional. The expected physical path was 'C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\bin\\Debug\\net5.0\\QaseProjectTest\\src\\Resources\\appSettings.json'.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()\r\n   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)\r\n   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()\r\n   at QaseProject.main.core.ReadProperties.BuildConfiguration() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\src\\Core\\ReadProperties.cs:line 29\r\n   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)\r\n--- End of stack trace from previous location ---\r\n   at System.Lazy`1.CreateValue()\r\n   at System.Lazy`1.get_Value()\r\n   at QaseProject.main.core.ReadProperties.get_Configuration() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\src\\Core\\ReadProperties.cs:line 13\r\n   at QaseProject.main.core.ReadProperties.get_Url() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\src\\Core\\ReadProperties.cs:line 37\r\n   at QaseProject.main.core.BrowsersService..ctor() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\src\\Core\\BrowsersService.cs:line 19\r\n   at QaseProject.main.baseEntity.BaseTest.OpenPage() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\src\\BaseEntity\\BaseTest.cs:line 16\r\n--TearDown\r\n   at QaseProject.main.baseEntity.BaseTest.ClosePage() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\QaseProjectTest\\src\\BaseEntity\\BaseTest.cs:line 23"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "abbcd7d9c90d4888838e6089d35a79f2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1643717711205,
+      "stop": 1643717711207
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1643717711205,
+  "stop": 1643717711207
+}

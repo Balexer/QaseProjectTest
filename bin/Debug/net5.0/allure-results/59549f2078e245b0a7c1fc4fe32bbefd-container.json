@@ -1,0 +1,44 @@
+{
+  "uuid": "fe3d7445-2b97-4228-863f-0a83f57b0359-tc-0-1000",
+  "name": "QaseProjectTest.Tests.UiTests.LoginTests.LoginTest",
+  "children": [
+    "c0045f11-7f90-497f-8cf4-348e4dadc30a-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "OpenPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1643719121895,
+      "stop": 1643719121895
+    }
+  ],
+  "afters": [
+    {
+      "name": "ClosePage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1643719121895,
+      "stop": 1643719121895
+    }
+  ],
+  "links": [],
+  "start": 1643719105973,
+  "stop": 1643719121926
+}

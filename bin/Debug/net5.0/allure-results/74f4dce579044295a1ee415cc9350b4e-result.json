@@ -1,0 +1,68 @@
+{
+  "uuid": "19ad9933-d7aa-4857-8091-1e3fdc5bab4f-tr-0-1001",
+  "historyId": "QaseProject.Tests.UiTests.LoginTests.LoginTest",
+  "fullName": "QaseProject.Tests.UiTests.LoginTests.LoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WSB-003-73"
+    },
+    {
+      "name": "package",
+      "value": "QaseProject.Tests.UiTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginTest"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTests"
+    }
+  ],
+  "links": [],
+  "name": "LoginTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.IO.FileNotFoundException : The configuration file 'QaseProjectTest\\src\\Resources\\appSettings.json' was not found and is not optional. The expected physical path was 'C:\\QaseProjectTest\\src\\Resources\\appSettings.json'.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()\r\n   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)\r\n   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()\r\n   at QaseProject.main.core.ReadProperties.BuildConfiguration() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\src\\Core\\ReadProperties.cs:line 30\r\n   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)\r\n   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)\r\n   at System.Lazy`1.CreateValue()\r\n   at System.Lazy`1.get_Value()\r\n   at QaseProject.main.core.ReadProperties.get_Configuration() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\src\\Core\\ReadProperties.cs:line 13\r\n   at QaseProject.main.core.ReadProperties.get_Url() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\src\\Core\\ReadProperties.cs:line 38\r\n   at QaseProject.main.core.BrowsersService..ctor() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\src\\Core\\BrowsersService.cs:line 19\r\n   at QaseProject.main.baseEntity.BaseTest.OpenPage() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\src\\BaseEntity\\BaseTest.cs:line 16\r\n--TearDown\r\n   at QaseProject.main.baseEntity.BaseTest.ClosePage() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\src\\BaseEntity\\BaseTest.cs:line 23"
+  },
+  "stage": "finished",
+  "description": "\nOpenPage SetUp method failed\n\nClosePage TearDown method failed\n",
+  "steps": [
+    {
+      "name": "LoginTest skipped because of OpenPage failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.IO.FileNotFoundException : The configuration file 'QaseProjectTest\\src\\Resources\\appSettings.json' was not found and is not optional. The expected physical path was 'C:\\QaseProjectTest\\src\\Resources\\appSettings.json'.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()\r\n   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)\r\n   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()\r\n   at QaseProject.main.core.ReadProperties.BuildConfiguration() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\src\\Core\\ReadProperties.cs:line 30\r\n   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)\r\n   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)\r\n   at System.Lazy`1.CreateValue()\r\n   at System.Lazy`1.get_Value()\r\n   at QaseProject.main.core.ReadProperties.get_Configuration() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\src\\Core\\ReadProperties.cs:line 13\r\n   at QaseProject.main.core.ReadProperties.get_Url() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\src\\Core\\ReadProperties.cs:line 38\r\n   at QaseProject.main.core.BrowsersService..ctor() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\src\\Core\\BrowsersService.cs:line 19\r\n   at QaseProject.main.baseEntity.BaseTest.OpenPage() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\src\\BaseEntity\\BaseTest.cs:line 16\r\n--TearDown\r\n   at QaseProject.main.baseEntity.BaseTest.ClosePage() in C:\\Users\\Aliaksei.Bachuryn\\Documents\\GitHub\\QaseProjectTest\\QaseProjectTest\\src\\BaseEntity\\BaseTest.cs:line 23"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9daad0a41ccd4159998b689238a33331-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1643718149514,
+      "stop": 1643718149554
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1643718149514,
+  "stop": 1643718149556
+}
